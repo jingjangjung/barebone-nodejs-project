@@ -74,4 +74,6 @@ Run `$ gulp watch` to watch for changes and livereload your coffeescript,jade an
 
 ##### Run the server
 
-Run '$ gulp server' to run server. default to port:3000 you can change it in `gulpfile.js` file.
+Run '$ gulp serve' to run server. default to port:3000 you can change it in `gulpfile.js` file.
+
+maintained By [Taj Ahmed](http://tajahmed.bitbucket.org)
