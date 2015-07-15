@@ -96,7 +96,7 @@ gulp.task('watch', function() {
   gulp.watch(paths.coffee, ['coffee']);
   console.log('watching directory:' + paths.coffee.join(', '));
 
-  gulp.watch('./app/*', ['templates']);
+  gulp.watch('./src/app/*', ['templates']);
   console.log('watching directory: ./app');
 
 });
