@@ -1,0 +1,23 @@
+{
+  "name": "bower",
+  "version": "0.0.1",
+  "authors": [
+    "Taj Ahmed <tajahmed@pacewisdom.in>"
+  ],
+  "description": "Taj Ahmed's public profile",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.2",
+    "bootstrap": "~3.3.5"
+  }
+}

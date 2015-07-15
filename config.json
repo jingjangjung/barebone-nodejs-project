@@ -1,0 +1,30 @@
+{
+  "less": ["./src/app/less/*.less", "./src/app/less/**/*.less"],
+  "js": ["./src/app/views/*.jade", "./src/app/views/**/*.jade"],
+  "coffee" : ["./src/app/js/*.coffee", "./src/app/js/**/*.coffee"],
+  "vendor": {
+      "js": [
+        "bower_components/jquery/dist/jquery.js",
+        "bower_components/angular/angular.js",
+        "bower_components/bootstrap/dist/js/bootstrap.js"
+        ],
+      "css":[
+      "bower_components/bootstrap/dist/css/bootstrap.css"
+      ],
+      "fonts":[
+        "bower_components/bootstrap/dist/fonts/*"
+      ]
+      },
+  "dist": {
+    "server":"./public/",
+    "vendor" :{
+        "js": "./public/vendor/js",
+        "css": "./public/vendor/css",
+        "fonts": "./public/vendor/fonts"
+      },
+    "css" : "./public/css/",
+    "coffee" : "./public/js/",
+    "js" : "./public/views/"
+  },
+  "test" : ["./tests/**.js"]
+}
